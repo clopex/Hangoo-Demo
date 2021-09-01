@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E938A07B26DF45F600B13E31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E938A07A26DF45F600B13E31 /* AppDelegate.swift */; };
+		E938A07D26DF45F600B13E31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E938A07C26DF45F600B13E31 /* SceneDelegate.swift */; };
+		E938A07F26DF45F600B13E31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E938A07E26DF45F600B13E31 /* ViewController.swift */; };
+		E938A08226DF45F600B13E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E938A08026DF45F600B13E31 /* Main.storyboard */; };
+		E938A08426DF45F900B13E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E938A08326DF45F900B13E31 /* Assets.xcassets */; };
+		E938A08726DF45F900B13E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E938A08526DF45F900B13E31 /* LaunchScreen.storyboard */; };
+		E938A09226DF45F900B13E31 /* Hangoo_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E938A09126DF45F900B13E31 /* Hangoo_DemoTests.swift */; };
+		E938A09D26DF45F900B13E31 /* Hangoo_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E938A09C26DF45F900B13E31 /* Hangoo_DemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E938A08E26DF45F900B13E31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E938A06F26DF45F600B13E31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E938A07626DF45F600B13E31;
+			remoteInfo = "Hangoo-Demo";
+		};
+		E938A09926DF45F900B13E31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E938A06F26DF45F600B13E31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E938A07626DF45F600B13E31;
+			remoteInfo = "Hangoo-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E938A07726DF45F600B13E31 /* Hangoo-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hangoo-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E938A07A26DF45F600B13E31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E938A07C26DF45F600B13E31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E938A07E26DF45F600B13E31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E938A08126DF45F600B13E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E938A08326DF45F900B13E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E938A08626DF45F900B13E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E938A08826DF45F900B13E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E938A08D26DF45F900B13E31 /* Hangoo-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hangoo-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E938A09126DF45F900B13E31 /* Hangoo_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hangoo_DemoTests.swift; sourceTree = "<group>"; };
+		E938A09326DF45F900B13E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E938A09826DF45F900B13E31 /* Hangoo-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hangoo-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E938A09C26DF45F900B13E31 /* Hangoo_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hangoo_DemoUITests.swift; sourceTree = "<group>"; };
+		E938A09E26DF45F900B13E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E938A07426DF45F600B13E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E938A08A26DF45F900B13E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E938A09526DF45F900B13E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E938A06E26DF45F600B13E31 = {
+			isa = PBXGroup;
+			children = (
+				E938A07926DF45F600B13E31 /* Hangoo-Demo */,
+				E938A09026DF45F900B13E31 /* Hangoo-DemoTests */,
+				E938A09B26DF45F900B13E31 /* Hangoo-DemoUITests */,
+				E938A07826DF45F600B13E31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E938A07826DF45F600B13E31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E938A07726DF45F600B13E31 /* Hangoo-Demo.app */,
+				E938A08D26DF45F900B13E31 /* Hangoo-DemoTests.xctest */,
+				E938A09826DF45F900B13E31 /* Hangoo-DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E938A07926DF45F600B13E31 /* Hangoo-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				E938A07A26DF45F600B13E31 /* AppDelegate.swift */,
+				E938A07C26DF45F600B13E31 /* SceneDelegate.swift */,
+				E938A07E26DF45F600B13E31 /* ViewController.swift */,
+				E938A08026DF45F600B13E31 /* Main.storyboard */,
+				E938A08326DF45F900B13E31 /* Assets.xcassets */,
+				E938A08526DF45F900B13E31 /* LaunchScreen.storyboard */,
+				E938A08826DF45F900B13E31 /* Info.plist */,
+			);
+			path = "Hangoo-Demo";
+			sourceTree = "<group>";
+		};
+		E938A09026DF45F900B13E31 /* Hangoo-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E938A09126DF45F900B13E31 /* Hangoo_DemoTests.swift */,
+				E938A09326DF45F900B13E31 /* Info.plist */,
+			);
+			path = "Hangoo-DemoTests";
+			sourceTree = "<group>";
+		};
+		E938A09B26DF45F900B13E31 /* Hangoo-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E938A09C26DF45F900B13E31 /* Hangoo_DemoUITests.swift */,
+				E938A09E26DF45F900B13E31 /* Info.plist */,
+			);
+			path = "Hangoo-DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E938A07626DF45F600B13E31 /* Hangoo-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E938A0A126DF45F900B13E31 /* Build configuration list for PBXNativeTarget "Hangoo-Demo" */;
+			buildPhases = (
+				E938A07326DF45F600B13E31 /* Sources */,
+				E938A07426DF45F600B13E31 /* Frameworks */,
+				E938A07526DF45F600B13E31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hangoo-Demo";
+			productName = "Hangoo-Demo";
+			productReference = E938A07726DF45F600B13E31 /* Hangoo-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E938A08C26DF45F900B13E31 /* Hangoo-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E938A0A426DF45F900B13E31 /* Build configuration list for PBXNativeTarget "Hangoo-DemoTests" */;
+			buildPhases = (
+				E938A08926DF45F900B13E31 /* Sources */,
+				E938A08A26DF45F900B13E31 /* Frameworks */,
+				E938A08B26DF45F900B13E31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E938A08F26DF45F900B13E31 /* PBXTargetDependency */,
+			);
+			name = "Hangoo-DemoTests";
+			productName = "Hangoo-DemoTests";
+			productReference = E938A08D26DF45F900B13E31 /* Hangoo-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E938A09726DF45F900B13E31 /* Hangoo-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E938A0A726DF45F900B13E31 /* Build configuration list for PBXNativeTarget "Hangoo-DemoUITests" */;
+			buildPhases = (
+				E938A09426DF45F900B13E31 /* Sources */,
+				E938A09526DF45F900B13E31 /* Frameworks */,
+				E938A09626DF45F900B13E31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E938A09A26DF45F900B13E31 /* PBXTargetDependency */,
+			);
+			name = "Hangoo-DemoUITests";
+			productName = "Hangoo-DemoUITests";
+			productReference = E938A09826DF45F900B13E31 /* Hangoo-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E938A06F26DF45F600B13E31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E938A07626DF45F600B13E31 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					E938A08C26DF45F900B13E31 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E938A07626DF45F600B13E31;
+					};
+					E938A09726DF45F900B13E31 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E938A07626DF45F600B13E31;
+					};
+				};
+			};
+			buildConfigurationList = E938A07226DF45F600B13E31 /* Build configuration list for PBXProject "Hangoo-Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E938A06E26DF45F600B13E31;
+			productRefGroup = E938A07826DF45F600B13E31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E938A07626DF45F600B13E31 /* Hangoo-Demo */,
+				E938A08C26DF45F900B13E31 /* Hangoo-DemoTests */,
+				E938A09726DF45F900B13E31 /* Hangoo-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E938A07526DF45F600B13E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E938A08726DF45F900B13E31 /* LaunchScreen.storyboard in Resources */,
+				E938A08426DF45F900B13E31 /* Assets.xcassets in Resources */,
+				E938A08226DF45F600B13E31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E938A08B26DF45F900B13E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E938A09626DF45F900B13E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E938A07326DF45F600B13E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E938A07F26DF45F600B13E31 /* ViewController.swift in Sources */,
+				E938A07B26DF45F600B13E31 /* AppDelegate.swift in Sources */,
+				E938A07D26DF45F600B13E31 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E938A08926DF45F900B13E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E938A09226DF45F900B13E31 /* Hangoo_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E938A09426DF45F900B13E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E938A09D26DF45F900B13E31 /* Hangoo_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E938A08F26DF45F900B13E31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E938A07626DF45F600B13E31 /* Hangoo-Demo */;
+			targetProxy = E938A08E26DF45F900B13E31 /* PBXContainerItemProxy */;
+		};
+		E938A09A26DF45F900B13E31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E938A07626DF45F600B13E31 /* Hangoo-Demo */;
+			targetProxy = E938A09926DF45F900B13E31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E938A08026DF45F600B13E31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E938A08126DF45F600B13E31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E938A08526DF45F900B13E31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E938A08626DF45F900B13E31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E938A09F26DF45F900B13E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E938A0A026DF45F900B13E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E938A0A226DF45F900B13E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H46458GVN;
+				INFOPLIST_FILE = "Hangoo-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chat.Hangoo-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E938A0A326DF45F900B13E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H46458GVN;
+				INFOPLIST_FILE = "Hangoo-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chat.Hangoo-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E938A0A526DF45F900B13E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H46458GVN;
+				INFOPLIST_FILE = "Hangoo-DemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chat.Hangoo-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hangoo-Demo.app/Hangoo-Demo";
+			};
+			name = Debug;
+		};
+		E938A0A626DF45F900B13E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H46458GVN;
+				INFOPLIST_FILE = "Hangoo-DemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chat.Hangoo-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hangoo-Demo.app/Hangoo-Demo";
+			};
+			name = Release;
+		};
+		E938A0A826DF45F900B13E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H46458GVN;
+				INFOPLIST_FILE = "Hangoo-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chat.Hangoo-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hangoo-Demo";
+			};
+			name = Debug;
+		};
+		E938A0A926DF45F900B13E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H46458GVN;
+				INFOPLIST_FILE = "Hangoo-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chat.Hangoo-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hangoo-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E938A07226DF45F600B13E31 /* Build configuration list for PBXProject "Hangoo-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E938A09F26DF45F900B13E31 /* Debug */,
+				E938A0A026DF45F900B13E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E938A0A126DF45F900B13E31 /* Build configuration list for PBXNativeTarget "Hangoo-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E938A0A226DF45F900B13E31 /* Debug */,
+				E938A0A326DF45F900B13E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E938A0A426DF45F900B13E31 /* Build configuration list for PBXNativeTarget "Hangoo-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E938A0A526DF45F900B13E31 /* Debug */,
+				E938A0A626DF45F900B13E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E938A0A726DF45F900B13E31 /* Build configuration list for PBXNativeTarget "Hangoo-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E938A0A826DF45F900B13E31 /* Debug */,
+				E938A0A926DF45F900B13E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E938A06F26DF45F600B13E31 /* Project object */;
+}
