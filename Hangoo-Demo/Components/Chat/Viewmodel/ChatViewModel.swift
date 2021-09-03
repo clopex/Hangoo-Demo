@@ -6,3 +6,13 @@
 //
 
 import Foundation
+import SendBirdSDK
+
+class ChatViewModel {
+    
+    var messages: [SBDBaseMessage] = []
+    
+    static func build() -> ChatViewModel {
+        return ChatViewModel()
+    }
+}

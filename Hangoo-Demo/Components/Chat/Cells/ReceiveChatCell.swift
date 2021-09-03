@@ -9,15 +9,21 @@ import UIKit
 
 class ReceiveChatCell: UITableViewCell {
 
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var audioImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    func setup(title: String?) {
+        if let title = title {
+            titleLabel.text = title
+            audioImage.isHidden = true
+        } else {
+            titleLabel.text = "Audio file"
+            audioImage.isHidden = false
+        }
     }
     
 }

@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SendBirdSDK",
+        "repositoryURL": "https://github.com/sendbird/SendBird-iOS-framework",
+        "state": {
+          "branch": null,
+          "revision": "a5ee75bbccc74d749331c1f62ab67b9e081a7541",
+          "version": "3.0.232"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

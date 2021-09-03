@@ -3,18 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		E938A07B26DF45F600B13E31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E938A07A26DF45F600B13E31 /* AppDelegate.swift */; };
 		E938A07D26DF45F600B13E31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E938A07C26DF45F600B13E31 /* SceneDelegate.swift */; };
-		E938A07F26DF45F600B13E31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E938A07E26DF45F600B13E31 /* ViewController.swift */; };
-		E938A08226DF45F600B13E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E938A08026DF45F600B13E31 /* Main.storyboard */; };
 		E938A08426DF45F900B13E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E938A08326DF45F900B13E31 /* Assets.xcassets */; };
 		E938A08726DF45F900B13E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E938A08526DF45F900B13E31 /* LaunchScreen.storyboard */; };
 		E938A09226DF45F900B13E31 /* Hangoo_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E938A09126DF45F900B13E31 /* Hangoo_DemoTests.swift */; };
 		E938A09D26DF45F900B13E31 /* Hangoo_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E938A09C26DF45F900B13E31 /* Hangoo_DemoUITests.swift */; };
+		E938A0AC26DF4A0D00B13E31 /* SendBirdSDK in Frameworks */ = {isa = PBXBuildFile; productRef = E938A0AB26DF4A0D00B13E31 /* SendBirdSDK */; };
+		E938A0B026DF800400B13E31 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E938A0AF26DF800400B13E31 /* UIViewExt.swift */; };
+		E938A0B526DF812000B13E31 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E938A0B426DF812000B13E31 /* ChatViewController.swift */; };
+		E938A0BB26DFA3C100B13E31 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E938A0B926DFA3C100B13E31 /* ChatCell.swift */; };
+		E938A0BC26DFA3C100B13E31 /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E938A0BA26DFA3C100B13E31 /* ChatCell.xib */; };
+		E938A0BF26DFA3F300B13E31 /* UITableViewGenerics.swift in Sources */ = {isa = PBXBuildFile; fileRef = E938A0BE26DFA3F300B13E31 /* UITableViewGenerics.swift */; };
+		E938A0C226DFB28A00B13E31 /* AudioRecordHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E938A0C126DFB28A00B13E31 /* AudioRecordHelper.swift */; };
+		E938A0C426DFDF1900B13E31 /* SendBirdHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E938A0C326DFDF1900B13E31 /* SendBirdHelper.swift */; };
+		E938A0C626DFFB1200B13E31 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E938A0C526DFFB1200B13E31 /* ChatViewModel.swift */; };
+		E992EAC726E0C6CF00890609 /* ReceiveChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E992EAC526E0C6CF00890609 /* ReceiveChatCell.swift */; };
+		E992EAC826E0C6CF00890609 /* ReceiveChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E992EAC626E0C6CF00890609 /* ReceiveChatCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +47,6 @@
 		E938A07726DF45F600B13E31 /* Hangoo-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hangoo-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E938A07A26DF45F600B13E31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E938A07C26DF45F600B13E31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E938A07E26DF45F600B13E31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E938A08126DF45F600B13E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E938A08326DF45F900B13E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E938A08626DF45F900B13E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E938A08826DF45F900B13E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +56,16 @@
 		E938A09826DF45F900B13E31 /* Hangoo-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hangoo-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E938A09C26DF45F900B13E31 /* Hangoo_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hangoo_DemoUITests.swift; sourceTree = "<group>"; };
 		E938A09E26DF45F900B13E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E938A0AF26DF800400B13E31 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		E938A0B426DF812000B13E31 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		E938A0B926DFA3C100B13E31 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		E938A0BA26DFA3C100B13E31 /* ChatCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatCell.xib; sourceTree = "<group>"; };
+		E938A0BE26DFA3F300B13E31 /* UITableViewGenerics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewGenerics.swift; sourceTree = "<group>"; };
+		E938A0C126DFB28A00B13E31 /* AudioRecordHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordHelper.swift; sourceTree = "<group>"; };
+		E938A0C326DFDF1900B13E31 /* SendBirdHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendBirdHelper.swift; sourceTree = "<group>"; };
+		E938A0C526DFFB1200B13E31 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		E992EAC526E0C6CF00890609 /* ReceiveChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveChatCell.swift; sourceTree = "<group>"; };
+		E992EAC626E0C6CF00890609 /* ReceiveChatCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiveChatCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E938A0AC26DF4A0D00B13E31 /* SendBirdSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,12 +117,11 @@
 		E938A07926DF45F600B13E31 /* Hangoo-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				E938A07A26DF45F600B13E31 /* AppDelegate.swift */,
-				E938A07C26DF45F600B13E31 /* SceneDelegate.swift */,
-				E938A07E26DF45F600B13E31 /* ViewController.swift */,
-				E938A08026DF45F600B13E31 /* Main.storyboard */,
-				E938A08326DF45F900B13E31 /* Assets.xcassets */,
-				E938A08526DF45F900B13E31 /* LaunchScreen.storyboard */,
+				E938A0C026DFB27A00B13E31 /* Helper */,
+				E938A0BD26DFA3E000B13E31 /* Generics */,
+				E938A0B126DF80F700B13E31 /* Components */,
+				E938A0AE26DF7FF400B13E31 /* Extensions */,
+				E938A0AD26DF7FD800B13E31 /* SupportFiles */,
 				E938A08826DF45F900B13E31 /* Info.plist */,
 			);
 			path = "Hangoo-Demo";
@@ -128,6 +145,95 @@
 			path = "Hangoo-DemoUITests";
 			sourceTree = "<group>";
 		};
+		E938A0AD26DF7FD800B13E31 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E938A08326DF45F900B13E31 /* Assets.xcassets */,
+				E938A07A26DF45F600B13E31 /* AppDelegate.swift */,
+				E938A07C26DF45F600B13E31 /* SceneDelegate.swift */,
+				E938A08526DF45F900B13E31 /* LaunchScreen.storyboard */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		E938A0AE26DF7FF400B13E31 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E938A0AF26DF800400B13E31 /* UIViewExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E938A0B126DF80F700B13E31 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E938A0B226DF80FF00B13E31 /* Chat */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E938A0B226DF80FF00B13E31 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				E938A0B826DFA3A200B13E31 /* Viewmodel */,
+				E938A0B726DFA39B00B13E31 /* Model */,
+				E938A0B626DFA39400B13E31 /* Cells */,
+				E938A0B326DF810500B13E31 /* Views */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		E938A0B326DF810500B13E31 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E938A0B426DF812000B13E31 /* ChatViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E938A0B626DFA39400B13E31 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E938A0B926DFA3C100B13E31 /* ChatCell.swift */,
+				E938A0BA26DFA3C100B13E31 /* ChatCell.xib */,
+				E992EAC526E0C6CF00890609 /* ReceiveChatCell.swift */,
+				E992EAC626E0C6CF00890609 /* ReceiveChatCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E938A0B726DFA39B00B13E31 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E938A0B826DFA3A200B13E31 /* Viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				E938A0C526DFFB1200B13E31 /* ChatViewModel.swift */,
+			);
+			path = Viewmodel;
+			sourceTree = "<group>";
+		};
+		E938A0BD26DFA3E000B13E31 /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				E938A0BE26DFA3F300B13E31 /* UITableViewGenerics.swift */,
+			);
+			path = Generics;
+			sourceTree = "<group>";
+		};
+		E938A0C026DFB27A00B13E31 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E938A0C126DFB28A00B13E31 /* AudioRecordHelper.swift */,
+				E938A0C326DFDF1900B13E31 /* SendBirdHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +250,9 @@
 			dependencies = (
 			);
 			name = "Hangoo-Demo";
+			packageProductDependencies = (
+				E938A0AB26DF4A0D00B13E31 /* SendBirdSDK */,
+			);
 			productName = "Hangoo-Demo";
 			productReference = E938A07726DF45F600B13E31 /* Hangoo-Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +324,9 @@
 				Base,
 			);
 			mainGroup = E938A06E26DF45F600B13E31;
+			packageReferences = (
+				E938A0AA26DF4A0D00B13E31 /* XCRemoteSwiftPackageReference "SendBird-iOS-framework" */,
+			);
 			productRefGroup = E938A07826DF45F600B13E31 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,8 +344,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E938A08726DF45F900B13E31 /* LaunchScreen.storyboard in Resources */,
+				E938A0BC26DFA3C100B13E31 /* ChatCell.xib in Resources */,
 				E938A08426DF45F900B13E31 /* Assets.xcassets in Resources */,
-				E938A08226DF45F600B13E31 /* Main.storyboard in Resources */,
+				E992EAC826E0C6CF00890609 /* ReceiveChatCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +371,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E938A07F26DF45F600B13E31 /* ViewController.swift in Sources */,
+				E938A0C226DFB28A00B13E31 /* AudioRecordHelper.swift in Sources */,
+				E938A0B026DF800400B13E31 /* UIViewExt.swift in Sources */,
 				E938A07B26DF45F600B13E31 /* AppDelegate.swift in Sources */,
+				E938A0B526DF812000B13E31 /* ChatViewController.swift in Sources */,
+				E938A0BB26DFA3C100B13E31 /* ChatCell.swift in Sources */,
+				E992EAC726E0C6CF00890609 /* ReceiveChatCell.swift in Sources */,
 				E938A07D26DF45F600B13E31 /* SceneDelegate.swift in Sources */,
+				E938A0C426DFDF1900B13E31 /* SendBirdHelper.swift in Sources */,
+				E938A0C626DFFB1200B13E31 /* ChatViewModel.swift in Sources */,
+				E938A0BF26DFA3F300B13E31 /* UITableViewGenerics.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +416,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E938A08026DF45F600B13E31 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E938A08126DF45F600B13E31 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E938A08526DF45F900B13E31 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -593,6 +705,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E938A0AA26DF4A0D00B13E31 /* XCRemoteSwiftPackageReference "SendBird-iOS-framework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sendbird/SendBird-iOS-framework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.232;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E938A0AB26DF4A0D00B13E31 /* SendBirdSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E938A0AA26DF4A0D00B13E31 /* XCRemoteSwiftPackageReference "SendBird-iOS-framework" */;
+			productName = SendBirdSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E938A06F26DF45F600B13E31 /* Project object */;
 }
